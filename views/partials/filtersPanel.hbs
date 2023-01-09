@@ -1,0 +1,69 @@
+<div class="filters-panel">
+    <h1 class="filters-title">farm & garden - by owner</h1>
+    <form class="filters" action="/listings">
+        <div class="filter-selection">
+            <div class="selection-option">
+                <input type="checkbox" id="titles-only" name="titles-only" />
+                <label for="titles-only">search titles only</label>
+            </div>
+            <div class="selection-option">
+                <input type="checkbox" id="has-image" name="has-image" />
+                <label for="has-image">has image</label>
+            </div>
+            <div class="selection-option">
+                <input type="checkbox" id="posted-today" name="posted-today" />
+                <label for="posted-today">posted today</label>
+            </div>
+            <div class="selection-option">
+                <input
+                    type="checkbox"
+                    id="hide-duplicates"
+                    name="hide-duplicates"
+                />
+                <label for="hide-duplicates">hide duplicates</label>
+            </div>
+        </div>
+        <div class="location-filter">
+            <legend>miles from location</legend>
+            <input type="text" class="miles-filter" placeholder="miles" />
+            <input type="text" class="from-zip-filter" placeholder="from zip" />
+        </div>
+        <div class="price-filter">
+            <legend>price</legend>
+            <p>$</p>
+            <input type="text" class="min-filter" placeholder="min" />
+            <p>-$</p>
+            <input type="text" class="max-filter" placeholder="max" />
+        </div>
+        <div class="medium-filters">
+            <div class="selection-option">
+                <input type="checkbox" id="crypto-ok" name="crypto-ok" />
+                <label for="crypto-ok">cryptocurrency ok</label>
+            </div>
+            <div class="selection-option">
+                <input type="checkbox" id="delivery-ok" name="delivery-ok" />
+                <label for="delivery-ok">delivery available</label>
+            </div>
+        </div>
+        <button type="submit">reset</button>
+        <button type="submit">apply</button>
+    </form>
+    <div class="filters-links">
+        <div class="section-links">
+            <ul class="links">
+                <li>
+                    <a href="">safety tips</a>
+                </li>
+                <li>
+                    <a href="">prohibited items</a>
+                </li>
+                <li>
+                    <a href="">product recalls</a>
+                </li>
+                <li>
+                    <a href="">avoiding scams</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

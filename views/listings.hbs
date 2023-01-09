@@ -1,0 +1,9 @@
+{{> header}}
+<div class="listings-page">
+    {{> filtersPanel}}
+    <div class="listings">
+        {{#each listings}}
+            {{> listingCard listing=.}}
+        {{/each}}
+    </div>
+</div>

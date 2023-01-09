@@ -104,8 +104,73 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    background-color: #f4f4f4;
 }
 
 .cl-logo, .loc-title {
     display: inline;
+}
+
+/* Listings */
+
+.listings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.listing-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 0 #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listing-card > a {
+    color: inherit;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listing-img {
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.no-image {
+    font-size: 30px;
+    color: #ccc;
+}
+
+.listings-page {
+    display: flex;
+    margin-top: 1em;
+}
+
+/* Filters panel */
+
+.filters-panel {
+    width: 25%;
+    margin: 1em;
+}
+
+.location-filter input, .price-filter input, .price-filter p {
+    width: 30%;
+    display: inline;
+}
+
+.location-filter legend, .price-filter legend {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.filters-links {
+    margin: 1em 0;
 }

@@ -1,0 +1,17 @@
+<div class="listing-card">
+    <a href="/listings/124235235">
+        {{#if listing.image}}
+            <img class="listing-img" src="{{listing.image}}" alt="kitten" />
+        {{else}}
+            <div class="no-image">
+                <p>no image</p>
+            </div>
+        {{/if}}
+    </a>
+    <div class="listing-info">
+        <a href="/listings/124235235">
+            <h2 class="listing-title">{{listing.title}}</h2>
+        </a>
+        <p class="listing-location">{{listing.location}}</p>
+    </div>
+</div>
