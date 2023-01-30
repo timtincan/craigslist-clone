@@ -5,15 +5,18 @@ const listings = [
     {
         title: "kitten",
         location: "Rowland Heights",
+        date: new Date(),
         image: "images/rabbits.jpg",
     },
     {
         title: "Cute lionhead Baby Bunny Rabbits",
         location: "Glendale",
+        date: new Date(),
     },
     {
         title: "Cute lionhead Baby Bunny Rabbits",
         location: "Glendale",
+        date: new Date(),
     },
 ];
 

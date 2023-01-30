@@ -154,6 +154,10 @@ header {
     margin-top: 1em;
 }
 
+.listing-info p {
+    display: inline;
+}
+
 /* Filters panel */
 
 .filters-panel {
